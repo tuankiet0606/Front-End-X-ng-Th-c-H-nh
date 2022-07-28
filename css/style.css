@@ -29,11 +29,12 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 
 html,
 body {
 	height: 100%;
-	font-family: "Cairo", sans-serif;
+	font-family: 'Be Vietnam Pro', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -138,6 +139,12 @@ ol {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
+}
+
+.main-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
 }
 
 .spad {
@@ -605,7 +612,7 @@ ol {
 	color: #ffffff;
 }
 
-.hero__categories__all:after {
+/* .hero__categories__all:after {
 	position: absolute;
 	right: 18px;
 	top: 9px;
@@ -613,7 +620,7 @@ ol {
 	font-family: "ElegantIcons";
 	font-size: 18px;
 	color: #ffffff;
-}
+} */
 
 .hero__categories ul {
 	border: 1px solid #ebebeb;
@@ -743,7 +750,7 @@ ol {
 
 .hero__text h2 {
 	font-size: 46px;
-	color: #252525;
+	color: #4f4f4f;
 	line-height: 52px;
 	font-weight: 700;
 	margin: 10px 0;
